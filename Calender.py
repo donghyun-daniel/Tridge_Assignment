@@ -1,10 +1,9 @@
-month = {i+1 : 31 for i in range(12)} # All the rest
-month[4], month[6], month[9], month[11] = 30, 30, 30, 30 # Apr, Jun, Sep, Nov
-month[2] = 28 # Feb
-print(month)
-year = 1901
-for i in range(1900, 2002):
-    flag = "평년"
-    if i%4==0:
-        flag = "윤년"
-        if i%100
+import pandas as pd
+start = input("Enter Start Period YYYYMMDD")
+end = input("Enter End Period YYYYMMDD")
+mondays = pd.date_range(start=start, end=end, freq='WOM-1SUN')
+ans = []
+for m in mondays:
+    if m.day == 1:
+        ans.append(m)
+print(f"There are {len(ans)} Sundays which is first date of each months")
