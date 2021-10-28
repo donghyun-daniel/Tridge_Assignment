@@ -5,7 +5,7 @@
 
 Just run Calender.py
 
-ex : `python Calender.py`
+In my case, using Windows 10 : `python Calender.py`
 
 When you run `Calender.py`, the Instruction will be printed
 
