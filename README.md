@@ -11,6 +11,8 @@ When you run `Calender.py`, the Instruction will be printed
 
 Enter the start date and end date you want to explore. (YYYYMMDD)
 
+If you want to test case, Enter `19010101` and `20001231`.
+
 The output includes all dates and the total number of dates satisfying the conditions. 
 
 
