@@ -1,7 +1,7 @@
 # Tridge_Assignment
 
 ## Calender
-###Solution using Python
+### Solution using Python
 
 Just run Calender.py
 
